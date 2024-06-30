@@ -1,0 +1,113 @@
+{
+  "employee": [
+    {
+      "id": "706c",
+      "name": "Josh Dun",
+      "phone": "Muberry Street",
+      "address": "40028922"
+    }
+  ],
+  "customer": [
+    {
+      "id": "d2b6",
+      "name": "Fernanda Sene",
+      "phone": "Satie Sakai",
+      "address": "40028922"
+    }
+  ],
+  "product": [
+    {
+      "id": "bc4c",
+      "name": "mesa",
+      "description": "sola da bota palma da mão",
+      "quantity": 2
+    },
+    {
+      "id": "b38e",
+      "name": "cadeira",
+      "description": "sola da bota palma da mão",
+      "quantity": 2
+    },
+    {
+      "id": "283d",
+      "name": "televisão",
+      "description": "assistir propaganda da coca cola",
+      "quantity": "20"
+    },
+    {
+      "id": "7eb7",
+      "name": "computador",
+      "description": "jogar valorant",
+      "quantity": "30"
+    },
+    {
+      "id": "65ec",
+      "name": "Casca de bala",
+      "description": "Eu e casca de bala",
+      "quantity": "100"
+    },
+    {
+      "id": "8aa3",
+      "name": "Coberta",
+      "description": "Friozinho",
+      "quantity": "10"
+    },
+    {
+      "id": "b04f",
+      "name": "Sofá",
+      "description": "Macio e quentinho",
+      "quantity": "4"
+    },
+    {
+      "id": "1219",
+      "name": "Jabulani",
+      "description": "Bola falsificada da copa do mundo de 2000 e bolinha",
+      "quantity": "3"
+    }
+  ],
+  "order": [
+    {
+      "id": "2215",
+      "customer_id": "d2b6",
+      "employee_id": "706c",
+      "products": []
+    },
+    {
+      "id": "32d7",
+      "customer_id": "",
+      "employee_id": "",
+      "products": [
+        {
+          "id": "bc4c",
+          "buy": "0"
+        }
+      ]
+    },
+    {
+      "id": "2ba9",
+      "customer_id": "d2b6",
+      "employee_id": "706c",
+      "products": [
+        {
+          "id": "bc4c",
+          "buy": "2"
+        }
+      ]
+    },
+    {
+      "id": "4d71",
+      "customer_id": "d2b6",
+      "employee_id": "706c",
+      "products": [
+        {
+          "id": "bc4c",
+          "buy": "2"
+        },
+        {
+          "id": "b38e",
+          "buy": "2"
+        }
+      ]
+    }
+  ]
+}
