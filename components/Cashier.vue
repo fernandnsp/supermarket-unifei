@@ -100,7 +100,7 @@
                     }
 
                     await this.$axios.$post(
-                        `http://localhost:5000/order`, {
+                        `http://localhost:5000/order/`, {
                             "customer_id": this.customer.selected,
                             "employee_id": this.employee.selected,
                             "products": productsBuy,

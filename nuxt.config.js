@@ -42,8 +42,12 @@ export default {
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
     baseURL: 'http://localhost:5000',
+    credentials: false,
+    proxy: true,
   },
-
+  proxy: {
+    '/order': 'http://localhost:5000/order'
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
