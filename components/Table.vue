@@ -15,7 +15,7 @@
                     <input
                         v-model="item.buy"
                         type="number"
-                        min="0"
+                        min="1"
                         :max="item.quantity"
                     >
                 </td>
@@ -56,7 +56,7 @@
             async responseTabItems() {
                 try {
                     this.tableItems = await this.$axios.$get(
-                        `http://localhost:4000/product`
+                        `http://localhost:5000/product`
                     )
 
                     if (process.client)

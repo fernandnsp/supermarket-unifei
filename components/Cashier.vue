@@ -68,14 +68,14 @@
         methods: {
             async responseEmployee() {
                 try {
-                    this.employee.items = await this.$axios.$get(`http://localhost:4000/employee`)
+                    this.employee.items = await this.$axios.$get(`http://localhost:5000/employee`)
                 } catch(err) {
                     console.error(err)
                 }
             },
             async responseCustomer() {
                 try {
-                    this.customer.items = await this.$axios.$get(`http://localhost:4000/customer`)
+                    this.customer.items = await this.$axios.$get(`http://localhost:5000/customer`)
                 } catch(err) {
                     console.error(err)
                 }
@@ -100,7 +100,7 @@
                     }
 
                     await this.$axios.$post(
-                        `http://localhost:4000/order`, {
+                        `http://localhost:5000/order`, {
                             "customer_id": this.customer.selected,
                             "employee_id": this.employee.selected,
                             "products": productsBuy,

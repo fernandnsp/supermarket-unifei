@@ -108,6 +108,28 @@
           "buy": "2"
         }
       ]
+    },
+    {
+      "id": "305d",
+      "customer_id": "d2b6",
+      "employee_id": "706c",
+      "products": [
+        {
+          "id": "bc4c",
+          "buy": "2"
+        }
+      ]
+    },
+    {
+      "id": "af78",
+      "customer_id": "d2b6",
+      "employee_id": "706c",
+      "products": [
+        {
+          "id": "bc4c",
+          "buy": "2"
+        }
+      ]
     }
   ]
 }

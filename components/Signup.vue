@@ -113,7 +113,7 @@
 
                 try {
                     await this.$axios.$post(
-                        `http://localhost:4000/${typeRequest[this.selectedType]}`, JSON.stringify(payload)
+                        `http://localhost:5000/${typeRequest[this.selectedType]}`, JSON.stringify(payload)
                     )
 
                     alert(`${this.selectedType} cadastrado com sucesso!`)
