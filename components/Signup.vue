@@ -103,8 +103,8 @@
 
                 if (this.selectedType !== 'Produto') {
                     payload.name = this.inputs[0].value
-                    payload.phone = this.inputs[1].value
-                    payload.address = this.inputs[2].value
+                    payload.address = this.inputs[1].value
+                    payload.phone = this.inputs[2].value
                 } else {
                     payload.name = this.inputsProduct[0].value
                     payload.description = this.inputsProduct[1].value
@@ -113,7 +113,7 @@
 
                 try {
                     await this.$axios.$post(
-                        `http://localhost:5000/${typeRequest[this.selectedType]}`, JSON.stringify(payload)
+                        `http://localhost:5000/${typeRequest[this.selectedType]}/`, payload
                     )
 
                     alert(`${this.selectedType} cadastrado com sucesso!`)
